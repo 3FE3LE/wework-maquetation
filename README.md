@@ -2,6 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+#Libraries used
+
+- Formik and Yup (Forms, validations schemas)
+- SVGR (support svg files)
+- Sass (styling and BEM architecture )
+
+
 First, run the development server:
 
 ```bash
