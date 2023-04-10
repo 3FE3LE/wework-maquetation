@@ -1,0 +1,59 @@
+.select-location {
+  width: 100%;
+  margin-bottom: 100px;
+  &__container {
+    margin: auto;
+    max-width: 1440px;
+    padding: 0 60px;
+    box-sizing: border-box;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__carousel {
+    right: 0;
+    z-index: -1;
+  }
+  &__float {
+    max-width: 30%;
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+    left: 40px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    line-height: 1.5;
+  }
+  &__text {
+    font-size: medium;
+    line-height: 2;
+    margin: 20px 0;
+  }
+  &__form {
+    width: 100%;
+  }
+  &__select{
+    display: block;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  &__button{
+    display: block;
+    background: blue;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+}
