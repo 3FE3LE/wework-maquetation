@@ -43,7 +43,7 @@ const index = () => {
         </div>
         <div className='looking-for__row'>
           {options.map((option, i) => (
-            option && <LookingForCard key={i} option={option} />
+            <LookingForCard key={i} option={option} />
           ))}
         </div>
       </div>
