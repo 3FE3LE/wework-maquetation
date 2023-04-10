@@ -24,3 +24,10 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .alert{
+    &__container{
+      padding: 16px;
+    }
+  }
+}
