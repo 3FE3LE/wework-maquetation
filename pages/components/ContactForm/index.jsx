@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { FormContact } from './FormContact'
-import { contactImg } from '../../../public/contact-us.jpg'
+import  contactImg  from '../../../public/contact-us.jpg'
 
 export const ConctactForm = () => {
   return (
