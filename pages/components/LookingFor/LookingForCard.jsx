@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 
 const LookingForCard = ({option}) => {
   const {img, description, title} = option

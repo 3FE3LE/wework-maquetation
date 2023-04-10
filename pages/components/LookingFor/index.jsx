@@ -1,5 +1,6 @@
+import Image from "next/image"
 import Link from 'next/link'
-import  LookingForCard  from './LookingForCard'
+import LookingForCard from './LookingForCard'
 import img1 from '../../../public/1.png'
 import img2 from '../../../public/2.png'
 import img3 from '../../../public/3.png'
