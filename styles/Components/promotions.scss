@@ -1,0 +1,39 @@
+.promotions {
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+  &__container {
+    max-width: 1440px;
+    padding: 0 60px;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+  }
+  &__img {
+    border-radius: 5px;
+    margin-right: 12px;
+  }
+  &__info {
+    width: 60%;
+    padding-left: 2rem;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 20px 0;
+    line-height: 1.5;
+  }
+  &__description {
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+  &__link {
+    color: blue;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
