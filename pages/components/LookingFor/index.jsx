@@ -10,25 +10,25 @@ const index = () => {
 
   const options = [
     {
-      img: <Image height={100} width={100} alt={title} className='looking-for__card__img' src={img1} />,
+      img: <Image height={100} width={100} alt={'Membresía de coworking'} className='looking-for__card__img' src={img1} />,
       title: 'Membresía de coworking',
       description: 'Hot desks, salas, cabinas telefónicas y más',
       peopleCapacity: 'Mas de 1'
     },
     {
-      img: <Image height={100} width={100} alt={title} className='looking-for__card__img' src={img2} />,
+      img: <Image height={100} width={100} alt={'Oficina Privada'} className='looking-for__card__img' src={img2} />,
       title: 'Oficina Privada',
       description: 'Oficinas listas cona menidades compartidas',
       peopleCapacity: '1-20+'
     },
     {
-      img: <Image height={100} width={100} alt={title} className='looking-for__card__img' src={img3} />,
+      img: <Image height={100} width={100} alt={'Excecutive Office'} className='looking-for__card__img' src={img3} />,
       title: 'Excecutive Office',
       description: 'Oficinas de primer nivel con amenidades privadas',
       peopleCapacity: '1-100'
     },
     {
-      img: <Image height={100} width={100} alt={title} className='looking-for__card__img' src={img4} />,
+      img: <Image height={100} width={100} alt={'Sala de reuniones'} className='looking-for__card__img' src={img4} />,
       title: 'Sala de reuniones',
       description: 'Salas privadas que se pueden reservar por hora',
       peopleCapacity: '1-20'
