@@ -37,8 +37,8 @@ export const LookingFor = () => {
           <Link className='looking-for__link' href={'/'}>Ver todas las soluciones</Link>
         </div>
         <div className='looking-for__row'>
-          {options.map((option) => (
-            option && <LookingForCard option={option} />
+          {options.map((option,i) => (
+            option && <LookingForCard key={i} option={option} />
           ))}
         </div>
       </div>

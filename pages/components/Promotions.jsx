@@ -7,7 +7,7 @@ export const Promotions = () => {
   return (
     <section className='promotions' >
       <div className='promotions__container'>
-        <Image height={427} width={760} src={promotionImg} />
+        <Image alt={'promotion'} height={427} width={760} src={promotionImg} />
         <div className='promotions__info'>
           <div>
             <h1 className='promotions__title'>

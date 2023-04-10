@@ -6,7 +6,7 @@ export const ConctactForm = () => {
   return (
     <section className='contact-us'>
       <div className="contact-us__container">
-        <Image className='contact-us__img' height={740} width={1320} src={contactImg} />
+        <Image alt='contact-us' className='contact-us__img' height={740} width={1320} src={contactImg} />
         <div className='contact-us__content'>
           <h1 className='contact-us__title'>
             Te ayudamos a encontrar tu espacio de trabajo ideal

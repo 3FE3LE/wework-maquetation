@@ -34,15 +34,15 @@ export const Solutions = () => {
                 Soluciones para empresas de todos los tamaños
               </h1>
               <div className="solutions__tabs">
-                {tabs.map((t) => (
-                  <div onClick={() => setTab(t)} className={`solutions__tab ${tab.key=== t.key?'solutions__tab--selected': ''}`} >
+                {tabs.map((t,i) => (
+                  <div onClick={() => setTab(t)} key={i} className={`solutions__tab ${tab.key=== t.key?'solutions__tab--selected': ''}`} >
                     {t.title}
                   </div>))}
               </div>
               <p className='solutions__description'>{tab.description}</p>
               <Link className='solutions__link' href={'/'} >Obtén más información</Link>
             </div>
-            <Image className='solutions__img' height={511} width={383} src={tab.img} ></Image>
+            <Image className='solutions__img' alt={tab.title} height={511} width={383} src={tab.img} ></Image>
           </div>
 
         </section>
