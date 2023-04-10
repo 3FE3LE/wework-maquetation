@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import { Alert } from './components/Alert'
-import { LookingFor } from './components/LookingFor'
-import { Navbar } from './components/Navbar'
-import { Promotions } from './components/Promotions'
-import { SelectLocation } from './components/SelectLocation'
-import { Solutions } from './components/Solutions'
-import { ConctactForm } from './components/ContactForm'
+import Alert from './components/Alert'
+import LookingFor from './components/LookingFor'
+import Navbar from './components/Navbar'
+import Promotions from './components/Promotions'
+import SelectLocation from './components/SelectLocation'
+import Solutions from './components/Solutions'
+import ConctactForm from './components/ContactForm'
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
         <LookingFor />
         <Promotions />
         <Solutions />
-        <ConctactForm/>
+        <ConctactForm />
       </main>
     </>
   )

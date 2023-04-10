@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import promotionImg from '../../public/promotion-img.jpg'
-export const Promotions = () => {
+const Promotions = () => {
   return (
     <section className='promotions' >
       <div className='promotions__container'>
@@ -25,3 +25,4 @@ export const Promotions = () => {
     </section>
   )
 }
+export default Promotions

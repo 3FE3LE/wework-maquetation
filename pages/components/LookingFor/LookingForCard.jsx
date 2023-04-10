@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-export const LookingForCard = ({option}) => {
+const LookingForCard = ({option}) => {
   const {img, description, title} = option
   return (
     <div className='looking-for__card'>
@@ -12,3 +12,5 @@ export const LookingForCard = ({option}) => {
     </div>
   )
 }
+
+export default LookingForCard

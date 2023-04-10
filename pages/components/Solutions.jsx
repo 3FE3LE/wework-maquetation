@@ -5,7 +5,7 @@ import solutionsImg1 from '../../public/solutions-img-1.jpg'
 import solutionsImg2 from '../../public/solutions-img-2.jpg'
 
 
-export const Solutions = () => {
+const Solutions = () => {
   const tabs = [
     {
       key: 1,
@@ -48,3 +48,4 @@ export const Solutions = () => {
         </section>
   )
 }
+export default Solutions

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import WeWorkLogo from '../../public/wework-logo.svg'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav className='navbar'>
           <div className='navbar__container'>
@@ -29,3 +29,4 @@ export const Navbar = () => {
         </nav>
   )
 }
+export default Navbar

@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import { FormContact } from './FormContact'
+import FormContact from './FormContact'
 import  contactImg  from '../../../public/contact-us.jpg'
 
-export const ConctactForm = () => {
+const index = () => {
   return (
     <section className='contact-us'>
       <div className="contact-us__container">
@@ -18,3 +18,4 @@ export const ConctactForm = () => {
     </section>
   )
 }
+export default index

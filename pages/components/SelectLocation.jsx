@@ -1,6 +1,6 @@
 import Image from "next/image"
 import selectLocation from '../../public/select-location.jpg'
-export const SelectLocation = () => {
+const SelectLocation = () => {
   return (
     <section className='select-location'>
           <div className='select-location__container'>
@@ -23,3 +23,4 @@ export const SelectLocation = () => {
         </section>
   )
 }
+export default SelectLocation

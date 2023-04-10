@@ -2,7 +2,7 @@
 import { useState } from 'react'
 
 import Link from 'next/link'
-export const Alert = () => {
+const Alert = () => {
 
   const [closeAlert, setCloseAlert] = useState(false)
   return (
@@ -18,3 +18,4 @@ export const Alert = () => {
     </>
   )
 }
+export default Alert

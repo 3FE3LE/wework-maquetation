@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
-export const FormContact = () => {
+const FormContact = () => {
   const validationSchema = Yup.object().shape({
     name: Yup.string().required('Ingresa tu nombre completo'),
     email: Yup.string().email('Por favor ingresa un correo electrónico válido').required('Ingresa tu dirección de correo electrónico'),
@@ -85,3 +85,4 @@ export const FormContact = () => {
     </Formik>
   )
 }
+export default FormContact
