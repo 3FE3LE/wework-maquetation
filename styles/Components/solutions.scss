@@ -1,0 +1,74 @@
+.solutions {
+  width: 100%;
+  margin-bottom: 100px;
+  position: relative;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    4deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 100%
+  );
+  &__SVG-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    svg {
+      position: relative;
+      display: block;
+      width: calc(120% + 1.3px);
+      height: 231px;
+      transform: rotateY(180deg);
+      box-shadow: 2px 2px black;
+      .shape-fill {
+        fill: #ffffff;
+      }
+    }
+  }
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 60px;
+  }
+  &__info {
+    padding-top: 8rem;
+    max-width: 45%;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 20px 0;
+    line-height: 1.5;
+  }
+  &__tabs {
+    display: flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  &__tab {
+    padding: 15px;
+    color: blue;
+    border-bottom: 1px solid gray;
+    &--selected {
+      border-bottom: 1px solid blue;
+    }
+  }
+  &__description {
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+  &__img {
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 39px 37px 9px -3px rgba(0, 0, 0, 0.1);
+  }
+  &__link{
+    color:blue;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
