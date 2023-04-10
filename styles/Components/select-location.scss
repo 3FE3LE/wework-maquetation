@@ -41,7 +41,8 @@
   }
   &__select{
     display: block;
-    color: white;
+    color: darkgray;
+    border: 1px blue solid;
     width: 100%;
     padding: 15px;
     border-radius: 5px;
@@ -55,6 +56,9 @@
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
+    &:hover{
+      background: darkblue;
+    }
   }
 }
 @media (max-width: 767px) {

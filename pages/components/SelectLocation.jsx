@@ -12,7 +12,11 @@ const SelectLocation = () => {
               Encuentra una ubicación cerca de ti. Explora las membresías y las oficinas listas para mudarse para particulares o empresas de todos los tamaños.
             </p>
             <form className='select-location__form' >
-              <select className='select-location__select' name="" id=""></select>
+              <select  className='select-location__select' name="" id="">
+                <option value="">Barranquilla</option>
+                <option value="">Bogota</option>
+                <option value="">Medelle</option>
+              </select>
               <button className='select-location__button'>Comenzar</button>
             </form>
           </div>
