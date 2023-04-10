@@ -1,0 +1,44 @@
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 7;
+  background: #fff;
+  &__container {
+    max-width: 1440px;
+    height: 80px;
+    margin: auto;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  &__section {
+    display: flex;
+    width: 50%;
+    &--second {
+      align-items: inherit;
+      display: inline-flex;
+    }
+  }
+  &__item-list {
+    margin: 0 0 0 40px;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  &__link {
+    padding-bottom: 8px;
+  }
+  &__button {
+    margin: 0 40px 0 0;
+    color: blue;
+    border-radius: 0.25rem;
+    border: 1px solid blue;
+    padding: 10px 15px;
+    &__button:hover {
+      background: #ccf;
+    }
+  }
+}
