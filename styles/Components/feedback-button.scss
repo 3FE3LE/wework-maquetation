@@ -1,0 +1,16 @@
+.feedback-button{
+  width: 125px;
+  height: 35px;
+  top: 250px;
+  right: -45px;
+  position: fixed;
+  color: blue;
+  background: #efefff;
+  z-index: -1;
+  border-radius: 0 0 3px 3px;
+  cursor:pointer;
+  rotate: 90deg;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+}

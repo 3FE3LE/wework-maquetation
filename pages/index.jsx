@@ -6,6 +6,7 @@ import Promotions from './components/Promotions'
 import SelectLocation from './components/SelectLocation'
 import Solutions from './components/Solutions'
 import ConctactForm from './components/ContactForm'
+import FeedbackButton from './components/FeedbackButton'
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
       </Head>
       <Alert />
       <Navbar />
+
       <main>
+        <FeedbackButton />
         <SelectLocation />
         <LookingFor />
         <Promotions />
